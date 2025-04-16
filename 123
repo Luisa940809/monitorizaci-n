@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos básicos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enfermería y Monitorización Fetal - Universidad Antonio Nariño</title>
+    
+    <!-- Estilos básicos -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        /* Estilo de la cabecera */
+        header {
+            background-color: #0056b3; /* Azul similar al logo UAN */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        /* Estilo del menú de navegación */
+        nav {
+            background-color: #003366;
+            padding: 10px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        /* Estilo del contenido principal */
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        /* Estilo del pie de página */
+        footer {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        
+        /* Estilo para el logo */
+        .logo {
+            max-width: 200px;
+            height: auto;
+            display: block;
+            margin: 0 auto 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabecera con logo y título -->
+    <header>
+        <!-- Logo de la Universidad Antonio Nariño -->
+        <img src="https://www.uan.edu.co/images/logo_uan.png" alt="Logo Universidad Antonio Nariño" class="logo">
+        <h1>Importancia del Conocimiento en Monitorización Fetal para Enfermeras</h1>
+    </header>
+    
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#importancia">Importancia</a></li>
+            <li><a href="#procedimientos">Procedimientos</a></li>
+            <li><a href="#interpretacion">Interpretación</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Contenido principal -->
+    <main>
+        <section id="importancia">
+            <h2>La Importancia del Conocimiento en Monitorización Fetal</h2>
+            <p>El papel de las enfermeras en la monitorización fetal es fundamental para garantizar la salud tanto de la madre como del feto durante el embarazo y el parto. Un conocimiento profundo de los procedimientos y la interpretación de los datos puede marcar la diferencia en la detección temprana de posibles complicaciones.</p>
+            
+            <h3>Beneficios clave:</h3>
+            <ul>
+                <li>Detección temprana de sufrimiento fetal</li>
+                <li>Reducción de riesgos durante el parto</li>
+                <li>Mejor comunicación con el equipo médico</li>
+                <li>Mayor seguridad para la madre y el bebé</li>
+            </ul>
+        </section>
+        
+        <section id="procedimientos">
+            <h2>Procedimientos de Monitorización Fetal</h2>
+            <p>Las enfermeras deben estar familiarizadas con los diferentes métodos de monitorización fetal, incluyendo:</p>
+            
+            <h3>Monitorización Externa</h3>
+            <p>Uso de transductores ultrasónicos y tocodinamómetros para evaluar la frecuencia cardíaca fetal y las contracciones uterinas.</p>
+            
+            <h3>Monitorización Interna</h3>
+            <p>En casos específicos, puede ser necesario el electrodo del cuero cabelludo fetal o el catéter intrauterino para una medición más precisa.</p>
+        </section>
+        
+        <section id="interpretacion">
+            <h2>Interpretación de los Resultados</h2>
+            <p>La correcta interpretación de los trazados de monitorización fetal requiere:</p>
+            <ul>
+                <li>Conocimiento de los patrones normales y anormales</li>
+                <li>Comprensión de la variabilidad de la frecuencia cardíaca fetal</li>
+                <li>Capacidad para identificar desaceleraciones y su significado clínico</li>
+                <li>Habilidad para correlacionar los hallazgos con el contexto clínico</li>
+            </ul>
+        </section>
+    </main>
+    
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2023 Universidad Antonio Nariño - Facultad de Enfermería</p>
+        <p>Contacto: enfermeria@uan.edu.co</p>
+    </footer>
+</body>
+</html>
